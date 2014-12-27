@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Илья Юхновский</string>
+	<key>Builder Version</key>
+	<string>9537.75.14</string>
+	<key>CFBundleDisplayName</key>
+	<string>Phreebie1</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.phreebie</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>PhreebieCM1</string>
+				<key>Title</key>
+				<string>PhreebieCM</string>
+			</dict>
+		</array>
+		<key>Database Quota</key>
+		<real>1048576</real>
+		<key>Menus</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>Phreebie</string>
+				<key>Menu Items</key>
+				<array>
+					<dict>
+						<key>Identifier</key>
+						<string>phreebieAboutMenuID</string>
+						<key>Image</key>
+						<string>phreebieAbout.png</string>
+						<key>Title</key>
+						<string>About</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>phreebieAboutPopover.html</string>
+				<key>Height</key>
+				<real>200</real>
+				<key>Identifier</key>
+				<string>phreebiePopover</string>
+				<key>Width</key>
+				<real>200</real>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>phreebieAboutID</string>
+				<key>Image</key>
+				<string>phreebieAbout.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Phreebie Tool</string>
+				<key>Palette Label</key>
+				<string>Phreebie Tool</string>
+				<key>Popover</key>
+				<string>phreebiePopover</string>
+				<key>Tool Tip</key>
+				<string>Phreebie About</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+	</dict>
+	<key>Description</key>
+	<string>Phreebie LLC</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://phreebie.net:9001</string>
+</dict>
+</plist>
